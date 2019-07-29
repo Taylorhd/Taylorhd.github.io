@@ -15,12 +15,12 @@
 <meta property="og:site_name" content="Taylor 的博客,biu biu biu">
 <meta property="og:description" content="合并两个有序链表将两个有序链表合并为一个新的有序链表并返回。新链表是通过拼接给定的两个链表的所有节点组成的。  示例： 输入：1-&amp;gt;2-&amp;gt;4, 1-&amp;gt;3-&amp;gt;4输出：1-&amp;gt;1-&amp;gt;2-&amp;gt;3-&amp;gt;4-&amp;gt;4 来源：力扣（LeetCode）链接：https://leetcode-cn.com/problems/merge-two-sorted-lists">
 <meta property="og:locale" content="default">
-<meta property="og:image" content="d:%5Cblog%5Cpublic%5Cimg%5C1564237936066.png">
-<meta property="og:updated_time" content="2019-07-29T02:59:29.523Z">
+<meta property="og:image" content="http://yoursite.com/2019/07/27/mergeTwoLists/....%5Cpublic%5Cimg%5C1564237936066.png">
+<meta property="og:updated_time" content="2019-07-29T03:05:14.376Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="merge Two Lists">
 <meta name="twitter:description" content="合并两个有序链表将两个有序链表合并为一个新的有序链表并返回。新链表是通过拼接给定的两个链表的所有节点组成的。  示例： 输入：1-&amp;gt;2-&amp;gt;4, 1-&amp;gt;3-&amp;gt;4输出：1-&amp;gt;1-&amp;gt;2-&amp;gt;3-&amp;gt;4-&amp;gt;4 来源：力扣（LeetCode）链接：https://leetcode-cn.com/problems/merge-two-sorted-lists">
-<meta name="twitter:image" content="d:%5Cblog%5Cpublic%5Cimg%5C1564237936066.png">
+<meta name="twitter:image" content="http://yoursite.com/2019/07/27/mergeTwoLists/....%5Cpublic%5Cimg%5C1564237936066.png">
   
     <link rel="alternative" href="/atom.xml" title="Taylor 的博客,biu biu biu" type="application/atom+xml">
   
@@ -194,7 +194,7 @@
 <p>官方的递归解答：</p>
 <blockquote>
 <p>想法</p>
-<p>我们可以如下递归地定义在两个链表里的 merge 操作（忽略边界<img src="D:%5Cblog%5Cpublic%5Cimg%5C1564237936066.png" alt="1564237936066">情况，比如空链表等）：</p>
+<p>我们可以如下递归地定义在两个链表里的 merge 操作（忽略边界<img src="....%5Cpublic%5Cimg%5C1564237936066.png" alt="1564237936066">情况，比如空链表等）：</p>
 <p>也就是说，两个链表头部较小的一个与剩下元素的 merge 操作结果合并。</p>
 <p>算法 我们直接将以上递归过程建模，首先考虑边界情况。 特殊的，如果 l1 或者 l2 一开始就是 null ，那么没有任何操作需要合并，所以我们只需要返回非空链表。否则，我们要判断 l1 和 l2 哪一个的头元素更小，然后递归地决定下一个添加到结果里的值。如果两个链表都是空的，那么过程终止，所以递归过程最终一定会终止。</p>
 <p>作者：LeetCode<br>链接：<a href="https://leetcode-cn.com/problems/two-sum/solution/he-bing-liang-ge-you-xu-lian-biao-by-leetcode/" target="_blank" rel="noopener">https://leetcode-cn.com/problems/two-sum/solution/he-bing-liang-ge-you-xu-lian-biao-by-leetcode/</a><br>来源：力扣（LeetCode）<br>著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处。</p>
